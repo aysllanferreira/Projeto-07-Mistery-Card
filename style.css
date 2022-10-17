@@ -65,7 +65,7 @@ main #criar-carta:hover {
 }
 
 .magazine2 {
-  background-image: url(/images/pink-pattern.png);
+  background-image: url("./images/pink-pattern.png");
   color: rgb(255 0 255);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 900;
@@ -91,15 +91,15 @@ main #criar-carta:hover {
 }
 
 .rotateright {
-  transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
+  transform: matrix(0.9962, 0.0872, -0.0872, 0.9962, 0, 0);
 }
 
 .skewleft {
-  transform: matrix(1, 0, 0.176327, 1, 0, 0);
+  transform: matrix(1, 0, 0.1763, 1, 0, 0);
 }
 
 .skewright {
-  transform: matrix(1, 0, -0.176327, 1, 0, 0);
+  transform: matrix(1, 0, -0.1763, 1, 0, 0);
 }
 
 span {
