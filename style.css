@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Fuzzy Bubbles', cursive;
+body {
+  font-family: "Fuzzy Bubbles", cursive;
   background: #f5f5f5;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,22 +21,22 @@ main{
   height: 100vh;
 }
 
-main h1{
+main h1 {
   margin-bottom: 2rem;
   font-size: 50px;
 }
 
-main #carta-contador{
+main #carta-contador {
   margin-bottom: 1rem;
 }
 
-main #carta-texto{
+main #carta-texto {
   margin-bottom: 2rem;
   padding: 5px;
   border-radius: 10px;
 }
 
-main #criar-carta{
+main #criar-carta {
   padding: 10px;
   border-radius: 10px;
   background: #51009c;
@@ -46,19 +46,19 @@ main #criar-carta{
   font-size: 18px;
 }
 
-main #criar-carta:hover{
+main #criar-carta:hover {
   background: #2b0053;
 }
 
 .newspaper {
-  background-color: rgb(250, 235, 215);
-  font-family: 'Fuzzy Bubbles', cursive;
+  background-color: rgb(250 235 215);
+  font-family: "Fuzzy Bubbles", cursive;
   font-weight: 700;
 }
 
 .magazine1 {
-  background-color: rgb(0, 128, 128);
-  color: rgb(255, 255, 255);
+  background-color: rgb(0 128 128);
+  color: rgb(255 255 255);
   font-family: Verdana;
   font-weight: 900;
   text-transform: uppercase;
@@ -66,7 +66,7 @@ main #criar-carta:hover{
 
 .magazine2 {
   background-image: url(images/pink-pattern.png);
-  color: rgb(255, 0, 255);
+  color: rgb(255 0 255);
   font-family: Verdana;
   font-weight: 900;
 }
